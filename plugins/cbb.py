@@ -145,9 +145,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 [
                     InlineKeyboardButton("BACK", callback_data="help_data"),
                     InlineKeyboardButton("START", callback_data="start_data"),
+                ],
+                [
+                    InlineKeyboardButton(
+                        "SOURCE CODE", url="https://t.me/team_lad"
+                    )
+                ],
             ]
-        await query.message.edit_text(
-            script.ABOUT_MSG, reply_markup=keyboard, disable_web_page_preview=True
         )
     elif query.data == "glitch":
         await query.message.edit_text(
