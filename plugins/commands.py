@@ -16,10 +16,14 @@ async def start(client: Client, message: Message):
                         InlineKeyboardButton("HELP", callback_data="help_data"),
                         InlineKeyboardButton("ABOUT", callback_data="about_data"),
                     ],
+                      [
+                          InlineKeyboardButton("Support",url="https://t.me/teamladz_bothub"),
+                          InlineKeyboardButton("Dev",url="https://t.me/ok_bie_bot"),
+                  ],
                     [
                         InlineKeyboardButton(
-                            "SOURCE CODE",
-                            url="https://github.com/TroJanzHEX/Image-Editor",
+                            "UPDATES",
+                            url="https://t.me/team_lad",
                         )
                     ],
                 ]
@@ -44,8 +48,8 @@ async def help(client, message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "SOURCE CODE",
-                            url="https://github.com/TroJanzHEX/Image-Editor",
+                            "UPDATES",
+                            url="https://t.me/team_lad",
                         )
                     ],
                 ]
@@ -71,7 +75,7 @@ async def about(client, message):
                     [
                         InlineKeyboardButton(
                             "SOURCE CODE",
-                            url="https://github.com/TroJanzHEX/Image-Editor",
+                            url="https://t.me/team_lad",
                         )
                     ],
                 ]
