@@ -36,6 +36,7 @@
 ### Deploy to Heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TroJanzHEX/Image-Editor)
 
+[![Anthada]
 ### Deploy in your vps
 ```sh
 git clone https://github.com/TroJanzHEX/Image-Editor
